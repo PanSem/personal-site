@@ -1,0 +1,260 @@
+body{
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  position: relative;
+  min-height: 400px;
+  background: url("../image/code.jpg");
+  color: #ffffff;
+  background-attachment: fixed;
+}
+
+header .main-info{
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  padding-top: 12rem;
+  padding-bottom: 5rem;
+}
+
+header .main-info p{
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+header .main-info h2{
+  margin: 0px;
+  font-size: 2.9rem;
+}
+
+header .main-info h2 span.letter_color{
+  color: #eba300;
+}
+
+header .main-info a{
+  margin: auto;
+  border: 1px solid #eba300;
+  padding: 1rem 2rem;
+  background: #eba300;
+  color: #ffffff;
+  margin-top: 2rem;
+  display:inline-block;
+  -webkit-transition: background 1s; /* For Safari 3.1 to 6.0 */
+  transition: background 1s;
+}
+
+header .main-info a.ct{
+  border: 1px solid #5d5d5d;
+  padding: 1rem 1rem;
+  background: #5d5d5d;
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  display:inline-block;
+  -webkit-transition: background 1s; /* For Safari 3.1 to 6.0 */
+  transition: background 1s;
+}
+
+header .main-info a:hover{
+  background: none;
+}
+
+header .overlay{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+/* Projects */
+
+.projects .details{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.projects .details img{
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.projects .details p.description{
+  width: 30%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.projects .details h2{
+  margin: 0;
+  font-size: 2.5rem;
+  color: #d83d3d;
+}
+
+.projects .details p.dev{
+  margin: 0;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  color: #4e4e4e;
+}
+
+.projects .details h2.od{
+  color: #0078d7;
+}
+
+.projects .details a.gcode{
+  color: #4949bd;
+}
+
+hr{
+  margin-top: 5rem;
+  width: 50%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #eba300;
+}
+
+.projects .details h2.ms{
+  color: #00d46a;
+}
+
+.about-me{
+  background: #2e3038;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.about-me .container{
+  width: 90%;
+  margin: auto;
+}
+
+.about-me .info{
+  width: 50%;
+  float: left;
+  margin: auto;
+  text-align: center;
+}
+
+.about-me .info h2{
+  color: #ff6868;
+  font-size: 1.5rem;
+}
+
+.about-me .info p{
+  color: #e0dddd;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.about-me .skills{
+  width: 50%;
+  float: left;
+  margin: auto;
+  text-align: center;
+}
+
+.about-me .skills h2{
+  color: #ff6868;
+  font-size: 1.5rem;
+}
+
+.about-me .skills i{
+  text-align: center;
+  color: #e0dddd;
+  font-size: 3rem;
+  padding-right: 1rem;
+}
+
+.about-me .skills i.fa-python{
+  padding-right: 0;
+  color: #3673a6;
+}
+
+.about-me .skills i.fa-html5{
+  color: #ff773d;
+}
+
+.about-me .skills i.fa-css3-alt{
+  color: #039be6;
+}
+
+.about-me .skills i.fa-sass{
+  color: #c96195;
+}
+
+.about-me .skills i.fa-js-square{
+  color: #efd81d;
+}
+
+@media(max-width:800px){
+  header .main-info a.ct{
+    margin-right: 0;
+  }
+
+  .about-me .container{
+    width: 80%;
+  }
+
+  .about-me .info{
+    width: 100%;
+    float: none;
+    padding-bottom: 2rem;
+  }
+
+  .about-me .skills{
+    width: 100%;
+    float: none;
+  }
+}
+
+@media(max-width:600px) {
+  header .main-info p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+  header .main-info a.ct{
+    margin-right: 0;
+  }
+
+  .projects .details img{
+    width: 250px;
+  }
+
+  .projects .details p.description{
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    font-size: 1.2rem;
+  }
+
+  .projects .details p.dev{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+/* #2e3038*/
