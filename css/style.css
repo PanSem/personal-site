@@ -38,7 +38,7 @@ header .main-info h2 span.letter_color{
   color: #eba300;
 }
 
-header .main-info a{
+a.pr{
   margin: auto;
   border: 1px solid #eba300;
   padding: 1rem 2rem;
@@ -50,7 +50,7 @@ header .main-info a{
   transition: background 1s;
 }
 
-header .main-info a.ct{
+a.ct{
   border: 1px solid #5d5d5d;
   padding: 1rem 1rem;
   background: #5d5d5d;
@@ -88,6 +88,7 @@ header .overlay{
 }
 
 .projects .details img{
+  width: 450px;
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -95,14 +96,14 @@ header .overlay{
   width: 30%;
   margin: auto;
   padding-top: 2rem;
-  padding-bottom: 0;
+  padding-bottom: 3rem;
   font-size: 1.2rem;
 }
 
 .projects .details h2{
   margin: 0;
   font-size: 2.5rem;
-  color: #d83d3d;
+  color: #eba300;
 }
 
 .projects .details p.dev{
@@ -113,7 +114,7 @@ header .overlay{
 }
 
 .projects .details h2.od{
-  color: #0078d7;
+  color: #eba300;
 }
 
 .projects .details a.gcode{
@@ -129,8 +130,23 @@ hr{
   border-top: 1px solid #eba300;
 }
 
+a.new_website, .old_website {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #eba300;
+  color: #ffffff;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+a.new_website:hover, .old_website:hover {
+  background-color: #da9700;
+  border-color: #da9700;
+}
+
 .projects .details h2.ms{
-  color: #00d46a;
+  color: #eba300;
 }
 
 .about-me{
@@ -207,7 +223,7 @@ hr{
 }
 
 @media(max-width:800px){
-  header .main-info a.ct{
+  a.ct{
     margin-right: 0;
   }
 
@@ -234,7 +250,7 @@ hr{
     margin: auto;
   }
 
-  header .main-info a.ct{
+  a.ct{
     margin-right: 0;
   }
 
@@ -246,7 +262,7 @@ hr{
     width: 80%;
     margin: auto;
     padding-top: 2rem;
-    padding-bottom: 0;
+    padding-bottom: 3rem;
     font-size: 1.2rem;
   }
 
